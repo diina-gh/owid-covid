@@ -3,12 +3,12 @@ import pandas as pd
 import time
 
 
-# 1. Lire le fichier et le stocker dans un dataframe pandas 
+# 0. Lire le fichier et le stocker dans un dataframe pandas 
 url = 'https://raw.githubusercontent.com/diina-gh/owid-covid/main/owid-covid-data.csv'
 df = pd.read_csv(url)
 
 def part1():
-  # 2. Afficher Le nombre d’enregistrements :
+  # 1. Afficher Le nombre d’enregistrements :
   print('2. Le nombre d’enregistrements: ',len(df.index))
 
   # 2. Afficher le schéma :
